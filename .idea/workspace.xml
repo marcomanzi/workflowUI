@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0877ede8-4157-4314-b847-5b051fe72fd1" name="Default" comment="" />
+    <list default="true" id="0877ede8-4157-4314-b847-5b051fe72fd1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/resources/start-step-end.bpmn20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20Reader.java" afterPath="$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20Reader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20ReaderTest.java" afterPath="$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20ReaderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="workflowUI.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +27,9 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="workflowUI" />
@@ -26,17 +39,23 @@
       <file leaf-file-name="Bpmn20Reader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1044">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/stream/Collectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3065" max-vertical-offset="26928">
+              <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,11 +63,47 @@
       <file leaf-file-name="Bpmn20ReaderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20ReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83558995">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.8095952" vertical-offset="0" max-vertical-offset="990">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/resources/customer.bpmn20.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="792">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oneStepWorkflow.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/resources/oneStepWorkflow.bpmn20.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start-step-end.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/resources/start-step-end.bpmn20.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,10 +117,8 @@
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,22 +147,21 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="207" />
-    <option name="width" value="1411" />
-    <option name="height" value="643" />
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1922" />
+    <option name="height" value="1054" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -126,8 +178,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,6 +335,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,6 +353,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -335,10 +388,33 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -361,131 +437,10 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -496,35 +451,6 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -549,16 +475,22 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
       <method />
@@ -597,6 +529,127 @@
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -672,6 +725,14 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <list size="4">
@@ -695,47 +756,64 @@
       <updated>1430855644193</updated>
       <workItem from="1430855651693" duration="5397000" />
       <workItem from="1430903786309" duration="21000" />
+      <workItem from="1430926544944" duration="4245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5418000" />
+    <option name="totallyTimeSpent" value="9663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="207" width="1411" height="643" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33113554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18039216" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18241042" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327451" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24068157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,7 +824,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -757,62 +835,71 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="882">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20ReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.4.5/vaadin-server-7.4.5.jar!/com/vaadin/ui/AbstractOrderedLayout.class">
+    <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34254143">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20ReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/easy/your/life/MyAppWidgetset.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-bpmn-model/5.17.0/activiti-bpmn-model-5.17.0.jar!/org/activiti/bpmn/model/BpmnModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.16">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-bpmn-converter/5.17.0/activiti-bpmn-converter-5.17.0.jar!/org/activiti/bpmn/converter/BpmnXMLConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.04">
-          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
           <folding />
         </state>
@@ -820,14 +907,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/easy/your/life/MyUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/easy/your/life/workflow/Bpm20Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -837,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/resources/customer.bpmn20.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
@@ -845,34 +932,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/resources/oneStepWorkflow.bpmn20.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/resources/start-step-end.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3065" max-vertical-offset="26928">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1044">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/com/easy/your/life/workflows/reader/Bpmn20ReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83558995">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.8095952" vertical-offset="0" max-vertical-offset="990">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,6 +1021,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>grails-2.0.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

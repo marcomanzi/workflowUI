@@ -4,17 +4,21 @@ import org.activiti.bpmn.converter.BpmnXMLConverter;
 import org.activiti.bpmn.model.BpmnModel;
 import org.activiti.bpmn.model.FlowElement;
 import org.activiti.bpmn.model.Process;
+import org.activiti.bpmn.model.SequenceFlow;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 /**
  * Created by marcolin on 05/05/15.
  */
 public class Bpmn20Reader {
     private final BpmnModel model;
-    private FlowElement startElement;
 
     public Bpmn20Reader(InputStream bpmn20InputStream) {
         final XMLInputFactory factory = XMLInputFactory.newInstance();
@@ -30,14 +34,21 @@ public class Bpmn20Reader {
     }
 
     public FlowElement getProcessStart() {
-        return getFlowElement(0);
+        return getMainProcess().getFlowElements().iterator().next();
     }
 
-    public FlowElement getFlowElement(int position) {
-        return getFlowElementsArray()[position];
+    protected List<SequenceFlow> getConnectionsOf(FlowElement element) {
+        return getMainProcess().getFlowElements().stream()
+                .filter(fe -> fe instanceof SequenceFlow)
+                .map(fe -> (SequenceFlow) fe)
+                .filter(fe -> element.getId().equals(fe.getSourceRef()))
+                .collect(Collectors.toList());
     }
 
-    private FlowElement[] getFlowElementsArray() {
-        return getMainProcess().getFlowElements().toArray(new FlowElement[0]);
+    public FlowElement getNextStepAfter(FlowElement element) {
+        for (SequenceFlow sequenceFlow : getConnectionsOf(element)) {
+            return getMainProcess().getFlowElement(sequenceFlow.getTargetRef());
+        }
+        return null;
     }
 }

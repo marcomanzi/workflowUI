@@ -1,7 +1,11 @@
 package com.easy.your.life.workflows.reader;
 
 import org.activiti.bpmn.model.FlowElement;
+import org.activiti.bpmn.model.SequenceFlow;
 import org.junit.Test;
+
+import java.io.InputStream;
+import java.util.List;
 
 import static org.junit.Assert.*;
 /**
@@ -9,29 +13,40 @@ import static org.junit.Assert.*;
  */
 public class Bpmn20ReaderTest {
 
+    private static Bpmn20Reader startStepEnd = new Bpmn20Reader(inputStreamFor("start-step-end.bpmn20.xml"));
+
     @Test
     public void readProcessFromBpm20File() {
-        assertNotNull(getBpmn20ReaderForOneStepWorkflow().getMainProcess());
+        assertNotNull(startStepEnd.getMainProcess());
     }
 
     @Test
     public void getStartFromProcess() {
-        FlowElement start = getBpmn20ReaderForOneStepWorkflow().getProcessStart();
-        assertNotNull(start);
-        assertEquals("start-id", start.getId());
-        assertEquals("start-name", start.getName());
+        assertIdIs("1", startElementForTest());
     }
 
     @Test
-    public void getNextStepFrom() {
-        FlowElement element = getBpmn20ReaderForOneStepWorkflow().getFlowElement(2);
-        assertNotNull(element);
-        assertEquals("start-first-step-id", element.getId());
-        assertEquals("start-first-step-name", element.getName());
+    public void getConnectionsForStartStep() {
+        List<SequenceFlow> connections = startStepEnd.getConnectionsOf(startElementForTest());
+        assertIdIs("2", connections.get(0));
     }
 
-    private Bpmn20Reader getBpmn20ReaderForOneStepWorkflow() {
-        return new Bpmn20Reader(Bpmn20ReaderTest.class.getClassLoader().getResourceAsStream("oneStepWorkflow.bpmn20.xml"));
+    @Test
+    public void getNextStepFromStart() {
+        assertIdIs("3", startStepEnd.getNextStepAfter(startElementForTest()));
+    }
+
+    private void assertIdIs(String expectedId, FlowElement element) {
+        assertNotNull(element);
+        assertEquals(expectedId, element.getId());
+    }
+
+    private FlowElement startElementForTest() {
+        return startStepEnd.getProcessStart();
+    }
+
+    private static InputStream inputStreamFor(String fileName) {
+        return Bpmn20ReaderTest.class.getClassLoader().getResourceAsStream(fileName);
     }
 
 }
