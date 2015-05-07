@@ -28,8 +28,7 @@ public class MyUI extends UI {
 
         Button button = new Button("Click Me 2");
         button.addClickListener(e -> layout.addComponent(new Label("Thank you for clicking")));
-        layout  .addComponent(button);
-
+        layout.addComponent(button);
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)

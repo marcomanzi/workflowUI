@@ -1,4 +1,4 @@
-package com.easy.your.life.workflows.reader;
+package com.easy.your.life.workflow.reader;
 
 import org.activiti.bpmn.converter.BpmnXMLConverter;
 import org.activiti.bpmn.model.BpmnModel;
