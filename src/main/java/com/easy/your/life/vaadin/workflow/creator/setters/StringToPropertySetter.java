@@ -1,11 +1,11 @@
-package com.easy.your.life.vaadin.workflow.creator;
+package com.easy.your.life.vaadin.workflow.creator.setters;
 
 import java.lang.reflect.Method;
 
 /**
  * Created by marcolin on 08/05/15.
  */
-public class StringToPropertySetter {
+class StringToPropertySetter {
     private enum TYPE {
         String(java.lang.String.class),
         Integer(java.lang.Integer.class);
@@ -16,7 +16,7 @@ public class StringToPropertySetter {
             this.typeClass = typeClass;
         }
 
-        Object conversion(String value) {
+        public Object conversion(String value) {
             switch (this) {
                 case Integer: return new Integer(value);
                 default: return value;
@@ -32,10 +32,10 @@ public class StringToPropertySetter {
 
     private static void setOneParameterFromTo(String singleValueExpression, Object bean) {
         String[] methodValueType = singleValueExpression.split(":");
-        TYPE typeForExpression = TYPE.valueOf(methodValueType[2]);
+        TYPE typeForExpression = TYPE.valueOf(methodValueType[1].split("-")[1]);
         try {
             Method method = bean.getClass().getMethod(methodValueType[0], typeForExpression.typeClass);
-            method.invoke(bean, typeForExpression.conversion(methodValueType[1]));
+            method.invoke(bean, typeForExpression.conversion(methodValueType[1].split("-")[0]));
         } catch (Exception e) {
             System.out.println("Problems while coping properties on object");
         }

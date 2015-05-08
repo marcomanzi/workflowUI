@@ -39,7 +39,7 @@ public class UITabWithTwoStepCreatorTest {
     @Test
     public void testContainerPropertiesAreSetOnTable() {
         Table table = (Table) ((HorizontalLayout) createTestUsersUI().getTab(0).getComponent()).getComponent(0);
-        table.getContainerPropertyIds();
+        assertEquals(2, table.getContainerPropertyIds().size());
     }
 
 

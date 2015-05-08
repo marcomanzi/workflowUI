@@ -1,17 +1,14 @@
 package com.easy.your.life.vaadin.workflow.creator;
 
+import com.easy.your.life.vaadin.workflow.creator.setters.ObjectPropertySetter;
 import com.easy.your.life.workflow.reader.Bpmn20Reader;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.TabSheet;
 import com.vaadin.ui.Table;
-import org.activiti.bpmn.model.ExtensionElement;
 import org.activiti.bpmn.model.FlowElement;
 import org.activiti.bpmn.model.FormProperty;
 import org.activiti.bpmn.model.UserTask;
-
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by marcolin on 07/05/15.
@@ -67,6 +64,6 @@ class UITabWithTwoStepCreator {
     }
 
     private void applyPropertiesFromExpression(Object object, String expression) {
-        StringToPropertySetter.setParametersFromTo(expression, object);
+        ObjectPropertySetter.setParametersFromTo(expression, object);
     }
 }

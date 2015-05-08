@@ -4,14 +4,14 @@
     <startEvent id="sid-D7A13F5A-E2B1-44E0-93DB-4CA88DA4ED7E" name="Users"></startEvent>
     <userTask id="sid-E6112273-5D01-4D87-B3FF-F71B76E28B47" name="User List">
       <extensionElements>
-        <activiti:formProperty id="type" name="Table" type="string" expression="addContainerProperty:Id:Integer;addContainerProperty:Username:String" variable="properties"></activiti:formProperty>
+        <activiti:formProperty id="type" name="Table" type="string" expression="addContainerProperty:Id-String;addContainerProperty:Username-String" variable="properties"></activiti:formProperty>
         <activiti:formProperty id="request" name="getUsers" type="string"></activiti:formProperty>
       </extensionElements>
     </userTask>
     <sequenceFlow id="sid-3DE734B2-C24D-489F-9754-4DDD60970A3E" sourceRef="sid-D7A13F5A-E2B1-44E0-93DB-4CA88DA4ED7E" targetRef="sid-E6112273-5D01-4D87-B3FF-F71B76E28B47"></sequenceFlow>
     <userTask id="sid-80270A05-35CF-4FB6-B685-673321F8751D" name="User">
       <extensionElements>
-        <activiti:formProperty id="type" name="Form" type="string" expression="setReadOnly:true:Boolean" variable="properties"></activiti:formProperty>
+        <activiti:formProperty id="type" name="Form" type="string" expression="setReadOnly:true-Boolean" variable="properties"></activiti:formProperty>
       </extensionElements>
     </userTask>
     <sequenceFlow id="sid-BA83D050-ABE3-4475-911B-18C0CD573BC7" sourceRef="sid-E6112273-5D01-4D87-B3FF-F71B76E28B47" targetRef="sid-80270A05-35CF-4FB6-B685-673321F8751D"></sequenceFlow>

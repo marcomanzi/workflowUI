@@ -1,5 +1,7 @@
 package com.easy.your.life.vaadin.workflow.creator;
 
+import com.easy.your.life.vaadin.workflow.creator.setters.ObjectPropertySetter;
+import com.vaadin.ui.Table;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -11,25 +13,32 @@ public class StringToPropertySetterTest {
     @Test
     public void testSetPropertyOnSimpleBean() {
         SimpleBean bean = new SimpleBean();
-        String simpleValue = "setTestStringParameter:value:String";
-        StringToPropertySetter.setParametersFromTo(simpleValue, bean);
+        String simpleValue = "setTestStringParameter:value-String";
+        ObjectPropertySetter.setParametersFromTo(simpleValue, bean);
         assertEquals("value", bean.getTestStringParameter());
     }
 
     @Test
     public void testSetTwoPropertiesOnSimpleBean() {
         SimpleBean bean = new SimpleBean();
-        String twoValues = "setTestStringParameter:value:String;setTestIntegerParameter:1:Integer";
-        StringToPropertySetter.setParametersFromTo(twoValues, bean);
+        String twoValues = "setTestStringParameter:value-String;setTestIntegerParameter:1-Integer";
+        ObjectPropertySetter.setParametersFromTo(twoValues, bean);
         assertEquals("value", bean.getTestStringParameter());
         assertEquals(new Integer(1), bean.getTestIntegerParameter());
     }
 
-    class SimpleBean {
+    @Test
+    public void testSetContainersOnTable() {
+        Table bean = new Table();
+        String twoValues = "addContainerProperty:Id-String;addContainerProperty:Username-String";
+        ObjectPropertySetter.setParametersFromTo(twoValues, bean);
+        assertEquals(2, bean.getContainerPropertyIds().size());
+    }
+
+
+    public class SimpleBean {
         private String testStringParameter;
-        private Float testFloadParameter;
         private Integer testIntegerParameter;
-        private Boolean testBooleanParameter;
 
         public String getTestStringParameter() {
             return testStringParameter;
@@ -37,14 +46,6 @@ public class StringToPropertySetterTest {
 
         public void setTestStringParameter(String testStringParameter) {
             this.testStringParameter = testStringParameter;
-        }
-
-        public Float getTestFloadParameter() {
-            return testFloadParameter;
-        }
-
-        public void setTestFloadParameter(Float testFloadParameter) {
-            this.testFloadParameter = testFloadParameter;
         }
 
         public Integer getTestIntegerParameter() {
@@ -55,13 +56,6 @@ public class StringToPropertySetterTest {
             this.testIntegerParameter = testIntegerParameter;
         }
 
-        public Boolean getTestBooleanParameter() {
-            return testBooleanParameter;
-        }
-
-        public void setTestBooleanParameter(Boolean testBooleanParameter) {
-            this.testBooleanParameter = testBooleanParameter;
-        }
     }
 
 }
