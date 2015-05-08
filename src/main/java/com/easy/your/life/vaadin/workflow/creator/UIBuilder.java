@@ -8,7 +8,6 @@ import com.vaadin.ui.TabSheet;
  */
 public class UIBuilder {
 
-    private TabSheet tabSheet;
     private UITabWithTwoStepCreator creator;
     private Bpmn20Reader bpmn20Reader;
 
