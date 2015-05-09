@@ -30,10 +30,6 @@ class UITabWithTwoStepCreator {
         }
     }
 
-    //<activiti:formProperty id="type" name="Table" type="string"
-    //  expression="&quot;addContainerProperty([Id:Integer,Username:String])&quot;" variable="properties">
-    // </activiti:formProperty>
-
     private Component contentTabsheet() {
         HorizontalLayout content = new HorizontalLayout();
         FlowElement firstStep = bpmn20Reader.getNextStepAfter(processStart);
