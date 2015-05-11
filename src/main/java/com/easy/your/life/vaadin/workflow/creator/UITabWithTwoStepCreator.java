@@ -2,6 +2,7 @@ package com.easy.your.life.vaadin.workflow.creator;
 
 import com.easy.your.life.vaadin.workflow.creator.setters.ObjectPropertySetter;
 import com.easy.your.life.workflow.reader.Bpmn20Reader;
+import com.vaadin.server.Sizeable;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.TabSheet;
@@ -32,12 +33,15 @@ class UITabWithTwoStepCreator {
 
     private Component contentTabsheet() {
         HorizontalLayout content = new HorizontalLayout();
+        content.setWidth(100, Sizeable.Unit.PERCENTAGE);
         FlowElement firstStep = bpmn20Reader.getNextStepAfter(processStart);
         if (firstStep instanceof UserTask) {
             for (FormProperty formProperty : ((UserTask) firstStep).getFormProperties()) {
                 switch (formProperty.getId()) {
                     case "type":
-                        content.addComponent(convertToVaadinElement(firstStep.getName(), formProperty));
+                        Component vaadinElement = convertToVaadinElement(firstStep.getName(), formProperty);
+                        vaadinElement.setWidth(50, Sizeable.Unit.PERCENTAGE);
+                        content.addComponent(vaadinElement);
                         break;
                 }
             }
